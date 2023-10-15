@@ -9,9 +9,10 @@ def isdate(word):
     
 #We need a task object with all the todo.txt information
 class task:
-    def __init__(self,vehicle,desc,priority=None,due=None):
+    def __init__(self,vehicle,desc,id_,priority=None,due=None):
         self.vehicle = vehicle
         self.desc = desc
+        self.id_ = id_
         self.priority = priority
         self.due = due
 
@@ -33,7 +34,7 @@ with open('todo.txt','r') as todo:
             tasks_v[vehicle] = []
             
         #Identify the task description from the normal words in the line
-        desclist = [word for word in line.split() if not any([isdate(word),word.startswith(( '@','due:','(' ))])]
+        desclist = [word for word in line.split() if not any([isdate(word),word.startswith(( '@', 'due:', '(', '#'))])]
         desc = ' '.join(desclist)
         
         #Identify priority because it starts with (
@@ -44,8 +45,11 @@ with open('todo.txt','r') as todo:
         year,month,day = [int(x) for x in due_str.split('-')]
         due = date(year,month,day)
         
+        #Identify the task ID
+        id_ = next((word for word in line.split() if word.startswith('#')))
+        
         #Put all that into the list of tasks for each vehicle
-        tasks_v[vehicle].append(task(vehicle,desc,priority,due))
+        tasks_v[vehicle].append(task(vehicle,desc,id_,priority,due))
         
 #Now actually create the html
 
@@ -55,7 +59,10 @@ html = f"<html><h1>{header}</h1>"
 #Task sections generator
 h_num = 2 #Start with <h2> since we use <h1> for the main title header
 for vehicle in tasks_v.keys():
-    html = html + "<"
+    html += f"<{h_num}>{vehicle}</{h_num}>"
+    tnum = 1
+    for task in tasks_v[vehicle]:
+        html += f"<input type='checkbox' id='{vehicle}{tnum}'><label for='{vehicle}{tnum}'>Unchecked Item</label>"
 
 
 html_closer = "</html>"
