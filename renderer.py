@@ -56,13 +56,34 @@ with open('todo.txt','r') as todo:
 header = f"Tasks for week of {date.today().strftime('%B')} {date.today().day}"
 html = f"<html><h1>{header}</h1>"
 
+head = """<head>
+  <style>
+    [data-prefix^='h'] {
+      margin-top: 10;
+      margin-bottom: 10;
+    }
+    
+    p {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  </style>
+</head>"""
+
+html += head
+html += "<body>"
+
 #Task sections generator
 h_num = 2 #Start with <h2> since we use <h1> for the main title header
 for vehicle in tasks_v.keys():
-    html += f"<{h_num}>{vehicle}</{h_num}>"
+    html += f"<p><h{h_num} data-prefix='h'>{vehicle}</h{h_num}>"
     tnum = 1
     for task in tasks_v[vehicle]:
-        html += f"<input type='checkbox' id='{vehicle}{tnum}'><label for='{vehicle}{tnum}'>Unchecked Item</label>"
+        html += f"<p><input type='checkbox' id='{vehicle}{tnum}'><label for='{vehicle}{tnum}'>{task.desc} ({task.id_})</label></p>"
+        tnum += 1
+
+html_closer = "</body></html>"
+html += html_closer
 
 
-html_closer = "</html>"
+print(html)
