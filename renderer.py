@@ -1,3 +1,7 @@
+#TO DO:
+#Add a dictionary to translate from @ vehicle names to readable names
+
+import pdfkit
 from datetime import date
 
 #We need a function to identify if a word in the string is a date
@@ -66,7 +70,13 @@ head = """<head>
     p {
       margin-top: 0;
       margin-bottom: 0;
+      font-size: 24;
     }
+    
+    input[type='checkbox'] {
+      margin-right: 10px;
+    }
+    
   </style>
 </head>"""
 
@@ -85,5 +95,6 @@ for vehicle in tasks_v.keys():
 html_closer = "</body></html>"
 html += html_closer
 
+pdfkit.from_string(html,'rendered.pdf')
 
 print(html)
