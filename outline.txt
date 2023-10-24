@@ -2,9 +2,9 @@ Tasks will be read off of todo.txt. The following elements are needed:
 
 renderer.py: reads the todo.txt list and creates a pdf checklist from it
 reporter.py: CLI to report which tasks were completed in a certain week and update the tracker and history accordingly
-tracker.txt: Records the last time a scheduled group of tasks was completed, per vehicle
+tracker.csv: Records the last time a scheduled group of tasks was completed. Stored in vehicle directory.
 history.txt: Records an all-time history of when tasks were completed
-scheduler.py: Reads tracker.txt and adds pending jobs to todo.txt according to schedule.csv. Also provides task numbers
+scheduler.py: Reads tracker.csv and adds pending jobs to todo.txt according to schedule.csv. Also provides task numbers
 printer.py: Physically prints the rendered pdf produced by renderer.py
 main.py: Runs weekly to execute the sequence of tasks. scheduler, renderer, printer
 schedule.csv: Tracks which jobs pertain to which maintenance schedule and the intervals for that schedule
