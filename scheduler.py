@@ -14,6 +14,12 @@ _4mo_lastwk_col = 5
 _12mo_lastwk_col = 8
 _4mo_shop_lastwk_col = 11
 
+_2mo_ID_col = 1
+_4mo_ID_col = 4
+_12mo_ID_col = 7
+_4mo_shop_ID_col = 10
+
+
 #Establish today
 today = date.today()
 
@@ -23,6 +29,8 @@ def weekssince(wk,yr,today):
         return today.isocalendar().week - wk
     if yr == today.year - 1:
         return (52-wk) + today.isocalendar().week
+    else:
+        return (52-wk) + 52*(today.year - yr)
 
 vehicles_tracking = os.path.join(os.getcwd(),'vehicles_tracking')
 
@@ -35,4 +43,6 @@ for d in os.listdir(vehicles_tracking):
     for row in range(len(tracker_df)):
         
         #check 2month
-        lastwk = tracker_df.iloc[row,_2mo_lastwk_col]
+        wk,yr = tracker_df.iloc[row,_2mo_lastwk_col].split('-')
+        if weekssince(int(wk),int(yr),today) >= 9:
+            add_task(ID) #Need to create this function
