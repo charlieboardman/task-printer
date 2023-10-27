@@ -1,9 +1,24 @@
-_2month,,,_4month,,,_12month,,,_shop4month,,
-Job,ID,lastwk,Job,ID,lastwk,Job,ID,lastwk,Job,ID,lastwk
-Oil and filter,1,,Cabin air filter,8,,Brake fluid (& clutch),15,,Compressor motor,18,
-Air filter,2,,Brake checkup,9,,Coolant,16,,Lift motor,19,
-Radiator cleanout,3,,Suspension checkup,10,,Differential fluid,17,,Lift safety catches,20,
-Tire rotation & checkup,4,,Spark plugs checkup,11,,,,,Lift grease,21,
-Cabin air filter,5,,Wiper fluid,12,,,,,Compressor valves,22,
-Battery checkup,6,,Clean inside windshield,13,,,,,Lift hydraulics,23,
-Lights/blinkers checkup,7,,Transmission fluid,14,,,,,,,
+job,_id,lastwk,interval
+Oil and filter,0,43-2020,_2month
+Air filter,1,,_2month
+Radiator cleanout,2,,_2month
+Tire rotation & checkup,3,,_2month
+Cabin air filter,4,,_2month
+Battery checkup,5,,_2month
+Lights/blinkers checkup,6,,_2month
+Cabin air filter,7,,_4month
+Brake checkup,8,,_4month
+Suspension checkup,9,,_4month
+Spark plugs checkup,10,,_4month
+Wiper fluid,11,,_4month
+Clean inside windshield,12,,_4month
+Transmission fluid,13,,_4month
+Brake fluid (& clutch),14,,_12month
+Coolant,15,,_12month
+Differential fluid,16,,_12month
+Compressor motor,17,,_shop4month
+Lift motor,18,,_shop4month
+Lift safety catches,19,,_shop4month
+Lift grease,20,,_shop4month
+Compressor valves,21,,_shop4month
+Lift hydraulics,22,,_shop4month
