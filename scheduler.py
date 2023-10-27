@@ -58,21 +58,21 @@ for d in os.listdir(vehicles_tracking):
         
         if tracker_df.interval[row] == '_2month':
             wk,yr = tracker_df.lastwk[row].split('-')
-            if weekssince(int(wk),int(yr),today) >= 9 and not task_exists(d,_id):
+            if weekssince(int(wk),int(yr),today) >= 9 and not task_exists(_id,d):
                 add_task(_id,d) #Need to create this function
                 
         if tracker_df.interval[row] == '_4month':
             wk,yr = tracker_df.lastwk[row].split('-')
-            if weekssince(int(wk),int(yr),today) >= 17 and not task_exists(d,_id):
+            if weekssince(int(wk),int(yr),today) >= 17 and not task_exists(_id,d):
                 add_task(_id,d) #Need to create this function
         
         if tracker_df.interval[row] == '_12month':
             wk,yr = tracker_df.lastwk[row].split('-')
-            if weekssince(int(wk),int(yr),today) >= 52 and not task_exists(d,_id):
+            if weekssince(int(wk),int(yr),today) >= 52 and not task_exists(_id,d):
                 add_task(_id,d) #Need to create this function
         
         if tracker_df.interval[row] == '_shop4month':
             wk,yr = tracker_df.lastwk[row].split('-')
-            if weekssince(int(wk),int(yr),today) >= 17 and not task_exists(d,_id):
+            if weekssince(int(wk),int(yr),today) >= 17 and not task_exists(_id,d):
                 add_task(_id,d) #Need to create this function
         
