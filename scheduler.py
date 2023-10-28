@@ -6,7 +6,6 @@
 import os
 from datetime import date, timedelta
 import pandas as pd
-import csv
 
 #Establish today
 today = date.today() #This runs on a monday
@@ -34,45 +33,45 @@ def task_exists(ID,vehicle):
 
 #Add a task to todo.txt
 #Need to complete this function. tracker.csv change lets me use dot notation
-def add_task(ID,vehicle):
-    
-    job = tracker_df.job[ID]
-    
+def add_bundle(bundle,vehicle):
     
     with open('todo.txt','a') as todo:
-        todo.write("\n")
-        todo.write(f"{job} @{vehicle} due:{friday_str} #{ID}")       
-    
-
+        
+        schedule = pd.read_csv('schedule.csv')
+        
+        for row in range(len(schedule)):
+            if schedule.bundle[row] == bundle and not task_exists(schedule._id[row],vehicle):        
+                job = schedule.job[row]
+                _id = schedule._id[row]
+                todo.write("\n")
+                todo.write(f"{job} @{vehicle} due:{friday_str} #{_id}")       
+        
 vehicles_tracking = os.path.join(os.getcwd(),'vehicles_tracking')
 
-for d in os.listdir(vehicles_tracking):
+for _dir in os.listdir(vehicles_tracking):
     
     #Open the tracker by vehicle
-    #header=1 means 2nd row (0 indexing) is header, so data starts on third row
-    tracker_df = pd.read_csv(os.path.join(vehicles_tracking,d,'tracker.csv'),header=0)
+    tracker = pd.read_csv(os.path.join(vehicles_tracking,_dir,'tracker.csv'),header=0)
     
-    for row in range(len(tracker_df)):
+    for row in range(len(tracker)):
         
-        _id = tracker_df._id[row]
-        
-        if tracker_df.interval[row] == '_2month':
-            wk,yr = tracker_df.lastwk[row].split('-')
-            if weekssince(int(wk),int(yr),today) >= 9 and not task_exists(_id,d):
-                add_task(_id,d) #Need to create this function
+        if tracker.bundle[row] == '_2month':
+            wk,yr = tracker.lastwk[row].split('-')
+            if weekssince(int(wk),int(yr),today) >= 9:
+                add_bundle('_2month',_dir)
                 
-        if tracker_df.interval[row] == '_4month':
-            wk,yr = tracker_df.lastwk[row].split('-')
-            if weekssince(int(wk),int(yr),today) >= 17 and not task_exists(_id,d):
-                add_task(_id,d) #Need to create this function
-        
-        if tracker_df.interval[row] == '_12month':
-            wk,yr = tracker_df.lastwk[row].split('-')
-            if weekssince(int(wk),int(yr),today) >= 52 and not task_exists(_id,d):
-                add_task(_id,d) #Need to create this function
-        
-        if tracker_df.interval[row] == '_shop4month':
-            wk,yr = tracker_df.lastwk[row].split('-')
-            if weekssince(int(wk),int(yr),today) >= 17 and not task_exists(_id,d):
-                add_task(_id,d) #Need to create this function
+        if tracker.bundle[row] == '_4month':
+            wk,yr = tracker.lastwk[row].split('-')
+            if weekssince(int(wk),int(yr),today) >= 17:
+                add_bundle('_4month',_dir)
+                
+        if tracker.bundle[row] == '_12month':
+            wk,yr = tracker.lastwk[row].split('-')
+            if weekssince(int(wk),int(yr),today) >= 52:
+                add_bundle('_12month',_dir)
+                
+        if tracker.bundle[row] == '_shop4month':
+            wk,yr = tracker.lastwk[row].split('-')
+            if weekssince(int(wk),int(yr),today) >= 17:
+                add_bundle('_shop4month',_dir)
         

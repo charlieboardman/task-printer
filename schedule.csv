@@ -1,4 +1,24 @@
-_2month,Oil and filter,Air filter,Radiator cleanout,Tire rotation & checkup,Cabin air filter,Battery checkup,
-_4month,Cabin air filter,Brake checkup,Suspension checkup,Spark plugs checkup,Wiper fluid,Clean inside windshield,Transmission fluid
-_12month,Brake fluid (& clutch),Coolant,Differential fluid,,,,
-_shop4month,Compressor motor,Lift motor,Lift safety catches,Lift grease,Compressor valves,Lift hydraulics,
+job,_id,bundle
+Oil and filter,0,_2month
+Air filter,1,_2month
+Radiator cleanout,2,_2month
+Tire rotation & checkup,3,_2month
+Cabin air filter,4,_2month
+Battery checkup,5,_2month
+Lights/blinkers checkup,6,_2month
+Cabin air filter,7,_4month
+Brake checkup,8,_4month
+Suspension checkup,9,_4month
+Spark plugs checkup,10,_4month
+Wiper fluid,11,_4month
+Clean inside windshield,12,_4month
+Transmission fluid,13,_4month
+Brake fluid (& clutch),14,_12month
+Coolant,15,_12month
+Differential fluid,16,_12month
+Compressor motor,17,_shop4month
+Lift motor,18,_shop4month
+Lift safety catches,19,_shop4month
+Lift grease,20,_shop4month
+Compressor valves,21,_shop4month
+Lift hydraulics,22,_shop4month
