@@ -2,12 +2,16 @@
 
 import pandas as pd
 
+#Need to switch this to schedule.csv to track jobs
 tracker = pd.read_csv('tracker.csv')
 
 with open('todo.txt','r') as todo:
     vehicles = []
     
     for line in todo:
+        
+        if line == '' or line == '\n':
+            continue
         
         #Identify the vehicle
         vehicle = next((word for word in line.split() if word.startswith('@')),None)
@@ -20,7 +24,8 @@ with open('todo.txt','r') as todo:
     
     for vehicle in vehicles:
         print(f"Reporting {vehicle} task completion:\n")
-        
+
+        #This loop needs to be rewritten to deal with the new tracker.csv and schedule.csv
         for line in todo:
             if f"{vehicle}" in line:
                 ID = next(x[1:] for x in line.split() if x.startswith("#"))
@@ -36,12 +41,3 @@ with open('todo.txt','r') as todo:
                 break
             completed.append(ans)
             
-        
-                
-            
-        
-        
-            
-        
-        
-                
