@@ -30,6 +30,10 @@ with open('todo.txt','r') as todo:
     #We are going to go over every line of the todo file. In each line, we identify which vehicle the task pertains to and the details of the tasks
     for line in todo:
         
+        #Pass over empty lines
+        if line == '' or line == '\n':
+            continue
+        
         #Identify the vehicle
         vehicle = next((word for word in line.split() if word.startswith('@')),None)
         
@@ -38,22 +42,23 @@ with open('todo.txt','r') as todo:
             tasks_v[vehicle] = []
             
         #Identify the task description from the normal words in the line
-        desclist = [word for word in line.split() if not any([isdate(word),word.startswith(( '@', 'due:', '(', '#'))])]
+        desclist = [word for word in line.split() if not any([isdate(word),word.startswith(( '@', 'due:', '(', '#', '&'))])]
         desc = ' '.join(desclist)
         
         #Identify priority because it starts with (
-        priority = next((word for word in line.split() if word.startswith('(')))
+        #priority = next((word for word in line.split() if word.startswith('(')))
         
         #Identify the due date
         due_str = next((word for word in line.split() if word.startswith('due:')))[4::]
         year,month,day = [int(x) for x in due_str.split('-')]
         due = date(year,month,day)
+        due_fmt = due.strftime('%d-%b-%Y')
         
         #Identify the task ID
         id_ = next((word for word in line.split() if word.startswith('#')))
         
         #Put all that into the list of tasks for each vehicle
-        tasks_v[vehicle].append(task(vehicle,desc,id_,priority,due))
+        tasks_v[vehicle].append(task(vehicle,desc,id_,due_fmt))
         
 #Now actually create the html
 
