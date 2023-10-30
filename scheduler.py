@@ -37,6 +37,8 @@ def add_bundle(bundle,vehicle):
     
     with open('todo.txt','a') as todo:
         
+        todo.seek(0,2) #Move to the new empty line at the end of the file
+        
         schedule = pd.read_csv('schedule.csv')
         
         for row in range(len(schedule)):
@@ -44,7 +46,7 @@ def add_bundle(bundle,vehicle):
                 job = schedule.job[row]
                 _id = schedule._id[row]
                 bundle = schedule.bundle[row]
-                todo.write(f"{job} @{vehicle} due:{friday_str} #{_id} &{bundle}")
+                todo.write(f"{job} @{vehicle} due:{friday_str} #{_id} %{bundle}")
                 todo.write("\n")
         
 vehicles_tracking = os.path.join(os.getcwd(),'vehicles_tracking')
@@ -54,7 +56,7 @@ with open('todo.txt') as todo:
     wip_bundles = []
     for row in todo:
         vehicle = next((word.strip('@') for word in row.split() if word.startswith('@')),None)
-        bundle = next((word.strip('&') for word in row.split() if word.startswith('&')),None)
+        bundle = next((word.strip('%') for word in row.split() if word.startswith('%')),None)
         wip_bundles.append((vehicle,bundle))        
         
 #Main loop--check what is due and att to todo.txt

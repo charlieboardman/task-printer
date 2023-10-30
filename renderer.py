@@ -42,7 +42,7 @@ with open('todo.txt','r') as todo:
             tasks_v[vehicle] = []
             
         #Identify the task description from the normal words in the line
-        desclist = [word for word in line.split() if not any([isdate(word),word.startswith(( '@', 'due:', '(', '#', '&'))])]
+        desclist = [word for word in line.split() if not any([isdate(word),word.startswith(( '@', 'due:', '(', '#', '%'))])]
         desc = ' '.join(desclist)
         
         #Identify priority because it starts with (
@@ -102,4 +102,4 @@ html += html_closer
 
 pdfkit.from_string(html,'rendered.pdf')
 
-print(html)
+#print(html)

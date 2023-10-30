@@ -1,18 +1,2 @@
-
-Oil and filter @f250 due:2023-11-02 #0 &_2month
-Air filter @f250 due:2023-11-02 #1 &_2month
-Radiator cleanout @f250 due:2023-11-02 #2 &_2month
-Tire rotation & checkup @f250 due:2023-11-02 #3 &_2month
-Cabin air filter @f250 due:2023-11-02 #4 &_2month
-Battery checkup @f250 due:2023-11-02 #5 &_2month
-Lights/blinkers checkup @f250 due:2023-11-02 #6 &_2month
-Cabin air filter @f250 due:2023-11-02 #7 &_4month
-Brake checkup @f250 due:2023-11-02 #8 &_4month
-Suspension checkup @f250 due:2023-11-02 #9 &_4month
-Spark plugs checkup @f250 due:2023-11-02 #10 &_4month
-Wiper fluid @f250 due:2023-11-02 #11 &_4month
-Clean inside windshield @f250 due:2023-11-02 #12 &_4month
-Transmission fluid @f250 due:2023-11-02 #13 &_4month
-Brake fluid (& clutch) @f250 due:2023-11-02 #14 &_12month
-Coolant @f250 due:2023-11-02 #15 &_12month
-Differential fluid @f250 due:2023-11-02 #16 &_12month
+Suspension checkup @hbchevy due:2023-11-02 #9 %_4month
+Spark plugs checkup @hbchevy due:2023-11-02 #10 %_4month
