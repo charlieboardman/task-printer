@@ -26,14 +26,14 @@ def weekssince(wk,yr,today):
 def task_exists(ID,vehicle):
     with open('todo.txt','r') as todo:
         for row in todo:
-            if f'@{vehicle}' and f'#{ID}' in row.split():
+            if (f'@{vehicle}' in row.split()) and (f'#{ID}' in row.split()):
                 return True
         return False
     
 
 #Add a task to todo.txt
 #Need to complete this function. tracker.csv change lets me use dot notation
-def add_bundle(bundle,vehicle):
+def add_bundle(vehicle,bundle):
     
     with open('todo.txt','a') as todo:
         
@@ -53,13 +53,13 @@ vehicles_tracking = os.path.join(os.getcwd(),'vehicles_tracking')
 
 #Identify which vehicles still have bundles under work
 with open('todo.txt') as todo:
-    wip_bundles = []
+    active_bundles = []
     for row in todo:
         vehicle = next((word.strip('@') for word in row.split() if word.startswith('@')),None)
         bundle = next((word.strip('%') for word in row.split() if word.startswith('%')),None)
-        wip_bundles.append((vehicle,bundle))        
+        active_bundles.append((vehicle,bundle))        
         
-#Main loop--check what is due and att to todo.txt
+#Main loop--check what is due and add to todo.txt
 for vehicle in os.listdir(vehicles_tracking):
     
     #Open the tracker by vehicle
@@ -69,21 +69,34 @@ for vehicle in os.listdir(vehicles_tracking):
         
         if tracker.bundle[row] == '_2month':
             wk,yr = tracker.lastwk[row].split('-')
-            if weekssince(int(wk),int(yr),today) >= 9 and (vehicle,'_2month') not in wip_bundles:
-                add_bundle('_2month',vehicle)
+            if weekssince(int(wk),int(yr),today) >= 9 and (vehicle,'_2month') not in active_bundles:
+                add_bundle(vehicle,'_2month')
+                active_bundles.append((vehicle,'_2month'))
                 
         if tracker.bundle[row] == '_4month':
             wk,yr = tracker.lastwk[row].split('-')
-            if weekssince(int(wk),int(yr),today) >= 17 and (vehicle,'_4month') not in wip_bundles:
-                add_bundle('_4month',vehicle)
+            if weekssince(int(wk),int(yr),today) >= 17 and (vehicle,'_4month') not in active_bundles:
+                add_bundle(vehicle,'_4month')
+                active_bundles.append((vehicle,'_4month'))
                 
         if tracker.bundle[row] == '_12month':
             wk,yr = tracker.lastwk[row].split('-')
-            if weekssince(int(wk),int(yr),today) >= 52 and (vehicle,'_12month') not in wip_bundles:
-                add_bundle('_12month',vehicle)
+            if weekssince(int(wk),int(yr),today) >= 52 and (vehicle,'_12month') not in active_bundles:
+                add_bundle(vehicle,'_12month')
+                active_bundles.append((vehicle,'_12month'))
                 
         if tracker.bundle[row] == '_shop4month':
             wk,yr = tracker.lastwk[row].split('-')
-            if weekssince(int(wk),int(yr),today) >= 17 and (vehicle,'_shop4month') not in wip_bundles:
-                add_bundle('_shop4month',vehicle)
+            if weekssince(int(wk),int(yr),today) >= 17 and (vehicle,'_shop4month') not in active_bundles:
+                add_bundle(vehicle,'_shop4month')
+                active_bundles.append((vehicle,'_shop4month'))
         
+#Eliminate duplicates from active_bundles
+active_bundles = list(set(active_bundles))
+
+#Write active bundles to active.txt
+with open('active.txt','w') as active:
+    active.truncate(0)
+    for vehicle, bundle in active_bundles:
+        active.write(f"{vehicle},{bundle}")
+        active.write('\n')
