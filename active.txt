@@ -1,4 +1,3 @@
 f250,_4month
-f250,_2month
 f250,_12month
-hbchevy,_4month
+f250,_2month

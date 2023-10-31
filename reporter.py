@@ -10,7 +10,19 @@ schedule = pd.read_csv('schedule.csv')
 completed_date = date.today().strftime('%d-%b-%Y')
 
 with open('todo.txt','r+') as todo:
-    
+
+    #Identify which bundles are active before beginning
+    #This will be used later to compare against active bundles once tasks are reported
+    active_bundles_before = []
+    for row in todo:
+        vehicle = next((word.strip('@') for word in row.split() if word.startswith('@')),None)
+        bundle = next((word.strip('%') for word in row.split() if word.startswith('%')),None)
+        active_bundles_before.append((vehicle,bundle))
+        
+    active_bundles_before = list(set(active_bundles_before))
+        
+    todo.seek(0)
+
     lines = [line for line in todo.readlines() if line != '\n']
     
     todo.seek(0)
@@ -29,7 +41,7 @@ with open('todo.txt','r+') as todo:
         if vehicle not in vehicles:
             vehicles.append(vehicle)
             
-    completed = [] #Init completed tasks
+    completed_tasks = [] #Init completed tasks
     
     for vehicle in vehicles:
         print(f"Reporting {vehicle} task completion:\n")
@@ -51,7 +63,7 @@ with open('todo.txt','r+') as todo:
             if ans == 'x':
                 break
             ans = int(ans)
-            completed.append((vehicle,ans))
+            completed_tasks.append((vehicle,ans))
             
         #Write the completed tasks to their history files
         with open(f'./vehicles_tracking/{vehicle[1::]}/history.txt','a') as history:
@@ -60,7 +72,7 @@ with open('todo.txt','r+') as todo:
                 if line == '\n' or line == '':
                     continue
                 _id = int(next(word.strip('#') for word in line.split() if word.startswith('#')))
-                if (vehicle,_id) in completed:
+                if (vehicle,_id) in completed_tasks:
                     history.write(line.strip('\n') + f' completed:{completed_date}\n')
                 
      
@@ -71,6 +83,49 @@ with open('todo.txt','r+') as todo:
     for line in lines:
         vehicle = next(word for word in line.split() if word.startswith('@'))
         _id = int(next(word.strip('#') for word in line.split() if word.startswith('#')))
-        if (vehicle,_id) not in completed:
+        if (vehicle,_id) not in completed_tasks:
             todo.write(line)
             
+    #Compare remaining tasks on todo.txt with active.txt to see which bundles have completed
+    todo.seek(0)
+    active_bundles_after = []
+    for row in todo:
+        vehicle = next((word.strip('@') for word in row.split() if word.startswith('@')),None)
+        bundle = next((word.strip('%') for word in row.split() if word.startswith('%')),None)
+        active_bundles_after.append((vehicle,bundle))
+    
+    active_bundles_after = list(set(active_bundles_after))
+    
+    completed_bundles = [bundle for bundle in active_bundles_before if bundle not in active_bundles_after]
+    
+#Update the tracker
+for vehicle,bundle in completed_bundles:
+    with open(f'./vehicles_tracking/{vehicle}/tracker.csv','r+') as tracker:
+        rows = tracker.readlines()
+        for n,row in enumerate(rows):
+            if bundle in row.split(','):
+                rows[n] = f'{bundle},{date.today().isocalendar().week}-{date.today().year}\n'
+        tracker.truncate(0)
+        tracker.seek(0)
+        for row in rows:
+            tracker.write(row)
+
+#Update active.txt
+with open('active.txt','r+') as active:
+    
+    lines = active.readlines()
+    for n,line in enumerate(lines):
+        if line == '\n' or line == '':
+            continue
+        vehicle = line.split(',')[0]
+        bundle = line.split(',')[1].strip('\n')
+        
+        if (vehicle,bundle) in completed_bundles:
+            lines.pop(n)
+    
+    active.truncate(0)
+    active.seek(0)
+    
+    for line in lines:
+        active.write(line)
+
