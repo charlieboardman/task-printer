@@ -14,3 +14,6 @@ Clean inside windshield @f250 due:2023-11-03 #12 %_4month
 Transmission fluid @f250 due:2023-11-03 #13 %_4month
 Brake fluid (& clutch) @f250 due:2023-11-03 #14 %_12month
 Coolant @f250 due:2023-11-03 #15 %_12month
+Brake fluid (& clutch) @taurus due:2023-11-05 #14 %_12month
+Coolant @taurus due:2023-11-05 #15 %_12month
+Differential fluid @taurus due:2023-11-05 #16 %_12month
