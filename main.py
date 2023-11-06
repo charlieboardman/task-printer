@@ -16,7 +16,7 @@ scheduler.schedule_tasks(active_bundles)
 scheduler.write_active_bundles(active_bundles)
 
 #Render the list
-renderer.render_list('english','spanish')
+html = renderer.render_list('english')
 
 #Print the rendered list
 #conn = cups.Connection()
