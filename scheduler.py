@@ -47,7 +47,7 @@ def add_bundle(vehicle,bundle):
         
         for row in range(len(schedule)):
             if schedule.bundle[row] == bundle and not task_exists(schedule._id[row],vehicle):        
-                job = schedule.job[row]
+                job = schedule.job_eng[row]
                 _id = schedule._id[row]
                 bundle = schedule.bundle[row]
                 todo.write(f"{job} @{vehicle} due:{friday_str} #{_id} %{bundle}")

@@ -12,7 +12,7 @@ def isdate(word):
         return True
 
 
-def render_list():
+def render_list(*languages):
 
     #We need a task object with all the todo.txt information
     class task:
