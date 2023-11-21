@@ -52,7 +52,7 @@ with open('todo.txt','r+') as todo:
         for line in todo:
             if f"{vehicle}" in line:
                 _id = next(x[1:] for x in line.split() if x.startswith("#"))
-                print(f"{schedule.job[int(_id)]}: {schedule._id[int(_id)]}")
+                print(f"{schedule.job_eng[int(_id)]}: {schedule._id[int(_id)]}")
         print('\n')
         
         ans = 0
