@@ -66,7 +66,7 @@ with open('todo.txt','r+') as todo:
             completed_tasks.append((vehicle,ans))
             
         #Write the completed tasks to their history files
-        with open(f'./vehicles_tracking/{vehicle[1::]}/history.txt','a') as history:
+        with open(f'./history/{vehicle[1::]}/history.txt','a') as history:
             todo.seek(0)
             for line in todo:
                 if line == '\n' or line == '':
@@ -99,17 +99,16 @@ with open('todo.txt','r+') as todo:
     completed_bundles = [bundle for bundle in active_bundles_before if bundle not in active_bundles_after]
     
 #Update the tracker
-for vehicle,bundle in completed_bundles:
-    with open(f'./vehicles_tracking/{vehicle}/tracker.csv','r+') as tracker:
-        rows = tracker.readlines()
-        for n,row in enumerate(rows):
-            if bundle in row.split(','):
-                rows[n] = f'{bundle},{date.today().isocalendar().week}-{date.today().year}\n'
-        tracker.truncate(0)
-        tracker.seek(0)
-        for row in rows:
-            tracker.write(row)
+    
+tracker = pd.read_csv('tracker.csv')
 
+for vehicle,bundle in completed_bundles:
+    row_index = tracker.index[tracker['bundle']==bundle].tolist()[0]
+    tracker[vehicle][row_index] = f'{date.today().isocalendar().week}-{date.today().year}'
+
+tracker.to_csv('tracker.csv',index=False)
+    
+    
 #Update active.txt
 with open('active.txt','r+') as active:
     

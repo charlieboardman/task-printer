@@ -1,0 +1,4 @@
+  File "/home/charlie/task-printer/main.py", line 21
+    Print the rendered list
+          ^^^
+SyntaxError: invalid syntax

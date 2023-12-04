@@ -19,7 +19,7 @@ scheduler.write_active_bundles(active_bundles)
 html = renderer.render_list('english')
 
 #Print the rendered list
-#conn = cups.Connection()
-#printers = conn.getPrinters()
-#printer_name = list(printers.keys())[0]
-#conn.printFile(printer_name, 'rendered.pdf', f'Tasks list: {today_str}', {})
+conn = cups.Connection()
+printers = conn.getPrinters()
+printer_name = list(printers.keys())[0]
+conn.printFile(printer_name, 'rendered.pdf', f'Tasks list: {today_str}', {})

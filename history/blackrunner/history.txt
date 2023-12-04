@@ -1,0 +1,16 @@
+Oil and filter @blackrunner due:2023-12-01 #0 %_2month completed:03-Dec-2023
+Air filter @blackrunner due:2023-12-01 #1 %_2month completed:03-Dec-2023
+Radiator cleanout @blackrunner due:2023-12-01 #2 %_2month completed:03-Dec-2023
+Tire rotation & checkup @blackrunner due:2023-12-01 #3 %_2month completed:03-Dec-2023
+Battery checkup @blackrunner due:2023-12-01 #5 %_2month completed:03-Dec-2023
+Lights/blinkers checkup @blackrunner due:2023-12-01 #6 %_2month completed:03-Dec-2023
+Brake checkup @blackrunner due:2023-12-01 #7 %_4month completed:03-Dec-2023
+Suspension checkup @blackrunner due:2023-12-01 #8 %_4month completed:03-Dec-2023
+Spark plugs checkup @blackrunner due:2023-12-01 #9 %_4month completed:03-Dec-2023
+Wiper fluid @blackrunner due:2023-12-01 #10 %_4month completed:03-Dec-2023
+Clean inside windshield @blackrunner due:2023-12-01 #11 %_4month completed:03-Dec-2023
+Transmission fluid @blackrunner due:2023-12-01 #12 %_4month completed:03-Dec-2023
+Brake fluid (& clutch) @blackrunner due:2023-12-01 #13 %_12month completed:03-Dec-2023
+Coolant @blackrunner due:2023-12-01 #14 %_12month completed:03-Dec-2023
+Differential fluid @blackrunner due:2023-12-01 #15 %_12month completed:03-Dec-2023
+Cabin air filter @blackrunner due:2023-12-01 #4 %_2month completed:03-Dec-2023
