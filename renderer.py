@@ -13,7 +13,7 @@ def isdate(word):
         return True
 
 
-def render_list(*languages):
+def render_list(today,*languages):
 
     #We need a task object with all the todo.txt information
     class task:
@@ -83,7 +83,7 @@ def render_list(*languages):
             
     #Now actually create the html
 
-    header = f"Tasks for week of {date.today().strftime('%B')} {date.today().day}"
+    header = f"Tasks for week of {today.strftime('%B')} {today.day}"
     html = f"<html><h1>{header}</h1>"
 
     head = """<head>

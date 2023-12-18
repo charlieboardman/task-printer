@@ -14,3 +14,20 @@ Transmission fluid @silverexplorer due:2023-12-15 #12 %_4month
 Brake fluid (& clutch) @silverexplorer due:2023-12-15 #13 %_12month
 Coolant @silverexplorer due:2023-12-15 #14 %_12month
 Differential fluid @silverexplorer due:2023-12-15 #15 %_12month
+
+Oil and filter @f250 due:2023-12-22 #0 %_2month
+Air filter @f250 due:2023-12-22 #1 %_2month
+Radiator cleanout @f250 due:2023-12-22 #2 %_2month
+Tire rotation & checkup @f250 due:2023-12-22 #3 %_2month
+Cabin air filter @f250 due:2023-12-22 #4 %_2month
+Battery checkup @f250 due:2023-12-22 #5 %_2month
+Lights/blinkers checkup @f250 due:2023-12-22 #6 %_2month
+Brake checkup @f250 due:2023-12-22 #7 %_4month
+Suspension checkup @f250 due:2023-12-22 #8 %_4month
+Spark plugs checkup @f250 due:2023-12-22 #9 %_4month
+Wiper fluid @f250 due:2023-12-22 #10 %_4month
+Clean inside windshield @f250 due:2023-12-22 #11 %_4month
+Transmission fluid @f250 due:2023-12-22 #12 %_4month
+Brake fluid (& clutch) @f250 due:2023-12-22 #13 %_12month
+Coolant @f250 due:2023-12-22 #14 %_12month
+Differential fluid @f250 due:2023-12-22 #15 %_12month

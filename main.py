@@ -3,20 +3,20 @@ import renderer
 import cups
 from datetime import date, timedelta
 
-today = date.today()
+today = date.today() + timedelta(days=1)
 today_str = today.strftime('%d-%b-%Y')
 
 #Read todo.txt to list active bundles
 active_bundles = scheduler.find_active_bundles()
 
 #Update the todo.txt list with jobs that are due
-scheduler.schedule_tasks(active_bundles)
+scheduler.schedule_tasks(active_bundles,today)
 
 #Write active bundles to active.txt
 scheduler.write_active_bundles(active_bundles)
 
 #Render the list
-html = renderer.render_list('english')
+html = renderer.render_list(today,'spanish')
 
 #Print the rendered list
 conn = cups.Connection()
