@@ -1,0 +1,6 @@
+Compressor motor @shop due:2023-12-01 #16 %_shop4month completed:03-Dec-2023
+Lift motor @shop due:2023-12-01 #17 %_shop4month completed:03-Dec-2023
+Lift safety catches @shop due:2023-12-01 #18 %_shop4month completed:03-Dec-2023
+Lift grease @shop due:2023-12-01 #19 %_shop4month completed:03-Dec-2023
+Compressor valves @shop due:2023-12-01 #20 %_shop4month completed:03-Dec-2023
+Lift hydraulics @shop due:2023-12-01 #21 %_shop4month completed:03-Dec-2023

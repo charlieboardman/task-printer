@@ -1,2 +1,3 @@
-porquera,_2month
-porquera,_4month
+silverexplorer,_2month
+silverexplorer,_4month
+silverexplorer,_12month

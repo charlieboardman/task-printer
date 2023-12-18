@@ -75,36 +75,47 @@ def schedule_tasks(active_bundles: List) -> List[Tuple[str, str]]:
 
 #Output: An updated list of active bundles. This function also writes to todo.txt
 
-    vehicles_tracking = os.path.join(os.getcwd(),'vehicles_tracking')
+    tracker = pd.read_csv('tracker.csv')
+    
+    vehicles = [x for x in list(tracker.columns) if x != 'bundle']
     
     #Main loop--check what is due and add to todo.txt
-    for vehicle in os.listdir(vehicles_tracking):
-        
-        #Open the tracker by vehicle
-        tracker = pd.read_csv(os.path.join(vehicles_tracking,vehicle,'tracker.csv'),header=0)
+    for vehicle in vehicles:
         
         for row in range(len(tracker)):
             
             if tracker.bundle[row] == '_2month':
-                wk,yr = tracker.lastwk[row].split('-')
+                lastwk = tracker[vehicle][row]
+                if pd.isna(lastwk):
+                    continue
+                wk,yr = lastwk.split('-')
                 if weeks_since(int(wk),int(yr),today) >= 9 and (vehicle,'_2month') not in active_bundles:
                     add_bundle(vehicle,'_2month')
                     active_bundles.append((vehicle,'_2month'))
                     
             if tracker.bundle[row] == '_4month':
-                wk,yr = tracker.lastwk[row].split('-')
+                lastwk = tracker[vehicle][row]
+                if pd.isna(lastwk):
+                    continue
+                wk,yr = lastwk.split('-')
                 if weeks_since(int(wk),int(yr),today) >= 17 and (vehicle,'_4month') not in active_bundles:
                     add_bundle(vehicle,'_4month')
                     active_bundles.append((vehicle,'_4month'))
                     
             if tracker.bundle[row] == '_12month':
-                wk,yr = tracker.lastwk[row].split('-')
+                lastwk = tracker[vehicle][row]
+                if pd.isna(lastwk):
+                    continue
+                wk,yr = lastwk.split('-')
                 if weeks_since(int(wk),int(yr),today) >= 52 and (vehicle,'_12month') not in active_bundles:
                     add_bundle(vehicle,'_12month')
                     active_bundles.append((vehicle,'_12month'))
                     
             if tracker.bundle[row] == '_shop4month':
-                wk,yr = tracker.lastwk[row].split('-')
+                lastwk = tracker[vehicle][row]
+                if pd.isna(lastwk):
+                    continue
+                wk,yr = lastwk.split('-')
                 if weeks_since(int(wk),int(yr),today) >= 17 and (vehicle,'_shop4month') not in active_bundles:
                     add_bundle(vehicle,'_shop4month')
                     active_bundles.append((vehicle,'_shop4month'))

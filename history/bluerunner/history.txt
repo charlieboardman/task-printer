@@ -1,0 +1,17 @@
+Right side mirror replacement @bluerunner #s %special completed:03-Dec-2023Cabin air filter @blackrunner due:2023-12-07 #4 %_2month completed:11-Dec-2023
+Oil and filter @bluerunner due:2023-12-08 #0 %_2month completed:11-Dec-2023
+Air filter @bluerunner due:2023-12-08 #1 %_2month completed:11-Dec-2023
+Radiator cleanout @bluerunner due:2023-12-08 #2 %_2month completed:11-Dec-2023
+Tire rotation & checkup @bluerunner due:2023-12-08 #3 %_2month completed:11-Dec-2023
+Cabin air filter @bluerunner due:2023-12-08 #4 %_2month completed:11-Dec-2023
+Battery checkup @bluerunner due:2023-12-08 #5 %_2month completed:11-Dec-2023
+Lights/blinkers checkup @bluerunner due:2023-12-08 #6 %_2month completed:11-Dec-2023
+Brake checkup @bluerunner due:2023-12-08 #7 %_4month completed:11-Dec-2023
+Suspension checkup @bluerunner due:2023-12-08 #8 %_4month completed:11-Dec-2023
+Spark plugs checkup @bluerunner due:2023-12-08 #9 %_4month completed:11-Dec-2023
+Wiper fluid @bluerunner due:2023-12-08 #10 %_4month completed:11-Dec-2023
+Clean inside windshield @bluerunner due:2023-12-08 #11 %_4month completed:11-Dec-2023
+Transmission fluid @bluerunner due:2023-12-08 #12 %_4month completed:11-Dec-2023
+Brake fluid (& clutch) @bluerunner due:2023-12-08 #13 %_12month completed:11-Dec-2023
+Coolant @bluerunner due:2023-12-08 #14 %_12month completed:11-Dec-2023
+Differential fluid @bluerunner due:2023-12-08 #15 %_12month completed:11-Dec-2023
