@@ -1,4 +1,3 @@
-blackrunner,_2month
-bluerunner,_2month
-bluerunner,_4month
-bluerunner,_12month
+silverexplorer,_2month
+silverexplorer,_4month
+silverexplorer,_12month
