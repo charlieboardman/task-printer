@@ -1,7 +1,3 @@
-silverexplorer,_12month
-f250,_4month
-f250,_2month
-None,None
-silverexplorer,_4month
-silverexplorer,_2month
-f250,_12month
+np300,_2month
+np300,_4month
+np300,_12month
