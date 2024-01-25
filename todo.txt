@@ -1,16 +1,16 @@
-Oil and filter @np300 due:2024-01-13 #0 %_2month
-Air filter @np300 due:2024-01-13 #1 %_2month
-Radiator cleanout @np300 due:2024-01-13 #2 %_2month
-Tire rotation & checkup @np300 due:2024-01-13 #3 %_2month
-Cabin air filter @np300 due:2024-01-13 #4 %_2month
-Battery checkup @np300 due:2024-01-13 #5 %_2month
-Lights/blinkers checkup @np300 due:2024-01-13 #6 %_2month
-Brake checkup @np300 due:2024-01-13 #7 %_4month
-Suspension checkup @np300 due:2024-01-13 #8 %_4month
-Spark plugs checkup @np300 due:2024-01-13 #9 %_4month
-Wiper fluid @np300 due:2024-01-13 #10 %_4month
-Clean inside windshield @np300 due:2024-01-13 #11 %_4month
-Transmission fluid @np300 due:2024-01-13 #12 %_4month
-Brake fluid (& clutch) @np300 due:2024-01-13 #13 %_12month
-Coolant @np300 due:2024-01-13 #14 %_12month
-Differential fluid @np300 due:2024-01-13 #15 %_12month
+Oil and filter @porquera due:2024-01-26 #0 %_2month
+Air filter @porquera due:2024-01-26 #1 %_2month
+Radiator cleanout @porquera due:2024-01-26 #2 %_2month
+Tire rotation & checkup @porquera due:2024-01-26 #3 %_2month
+Cabin air filter @porquera due:2024-01-26 #4 %_2month
+Battery checkup @porquera due:2024-01-26 #5 %_2month
+Lights/blinkers checkup @porquera due:2024-01-26 #6 %_2month
+Brake checkup @porquera due:2024-01-26 #7 %_4month
+Suspension checkup @porquera due:2024-01-26 #8 %_4month
+Spark plugs checkup @porquera due:2024-01-26 #9 %_4month
+Wiper fluid @porquera due:2024-01-26 #10 %_4month
+Clean inside windshield @porquera due:2024-01-26 #11 %_4month
+Transmission fluid @porquera due:2024-01-26 #12 %_4month
+Brake fluid (& clutch) @porquera due:2024-01-26 #13 %_12month
+Coolant @porquera due:2024-01-26 #14 %_12month
+Differential fluid @porquera due:2024-01-26 #15 %_12month

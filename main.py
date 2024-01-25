@@ -22,4 +22,4 @@ html = renderer.render_list(today,'english')
 conn = cups.Connection()
 printers = conn.getPrinters()
 printer_name = list(printers.keys())[0]
-conn.printFile(printer_name, 'rendered.pdf', f'Tasks list: {today_str}', {})
+#conn.printFile(printer_name, 'rendered.pdf', f'Tasks list: {today_str}', {})
