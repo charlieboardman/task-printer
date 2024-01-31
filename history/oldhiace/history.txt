@@ -1,0 +1,16 @@
+Oil and filter @oldhiace due:2024-01-20 #0 %_2month completed:21-Jan-2024
+Air filter @oldhiace due:2024-01-20 #1 %_2month completed:21-Jan-2024
+Radiator cleanout @oldhiace due:2024-01-20 #2 %_2month completed:21-Jan-2024
+Tire rotation & checkup @oldhiace due:2024-01-20 #3 %_2month completed:21-Jan-2024
+Cabin air filter @oldhiace due:2024-01-20 #4 %_2month completed:21-Jan-2024
+Battery checkup @oldhiace due:2024-01-20 #5 %_2month completed:21-Jan-2024
+Lights/blinkers checkup @oldhiace due:2024-01-20 #6 %_2month completed:21-Jan-2024
+Brake checkup @oldhiace due:2024-01-20 #7 %_4month completed:21-Jan-2024
+Suspension checkup @oldhiace due:2024-01-20 #8 %_4month completed:21-Jan-2024
+Spark plugs checkup @oldhiace due:2024-01-20 #9 %_4month completed:21-Jan-2024
+Wiper fluid @oldhiace due:2024-01-20 #10 %_4month completed:21-Jan-2024
+Clean inside windshield @oldhiace due:2024-01-20 #11 %_4month completed:21-Jan-2024
+Transmission fluid @oldhiace due:2024-01-20 #12 %_4month completed:21-Jan-2024
+Brake fluid (& clutch) @oldhiace due:2024-01-20 #13 %_12month completed:21-Jan-2024
+Coolant @oldhiace due:2024-01-20 #14 %_12month completed:21-Jan-2024
+Differential fluid @oldhiace due:2024-01-20 #15 %_12month completed:21-Jan-2024

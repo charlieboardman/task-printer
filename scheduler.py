@@ -8,12 +8,6 @@ from datetime import date, timedelta
 import pandas as pd
 from typing import List, Tuple
 
-#def establish_dates():
-#Establish today and end of week, Friday
-today = date.today() #This runs on a monday
-friday = date.today() + timedelta(days=4) #So friday is 4 days ahead
-friday_str = friday.strftime("%Y-%m-%d")
-
 #Calculate the weeks since a job was performed
 def weeks_since(wk,yr,today):
     if yr == today.year:
@@ -35,13 +29,11 @@ def task_exists(ID,vehicle):
 
 #Add a task to todo.txt
 #Need to complete this function. tracker.csv change lets me use dot notation
-def add_bundle(vehicle,bundle):
+def add_bundle(vehicle,bundle,friday_str):
     
     with open('todo.txt','a') as todo:
         
         todo.seek(0,2) #Move to the new empty line at the end of the file
-        
-        friday_str = friday.strftime("%Y-%m-%d")
         
         schedule = pd.read_csv('schedule.csv')
         
@@ -66,7 +58,7 @@ def find_active_bundles():
         return(active_bundles)
     
 
-def schedule_tasks(active_bundles: List) -> List[Tuple[str, str]]:
+def schedule_tasks(active_bundles: List,today) -> List[Tuple[str, str]]:
 
 #Inputs
 #today: A datetime.date object with the date the script is run
@@ -74,6 +66,10 @@ def schedule_tasks(active_bundles: List) -> List[Tuple[str, str]]:
     #[('f250','_2month'),('whitetacoma','_12month'),('whitetacoma,'_4month')]
 
 #Output: An updated list of active bundles. This function also writes to todo.txt
+
+    #Establish today and end of week, Friday
+    friday = today + timedelta(days=4) #So friday is 4 days ahead
+    friday_str = friday.strftime("%Y-%m-%d")
 
     tracker = pd.read_csv('tracker.csv')
     
@@ -90,7 +86,7 @@ def schedule_tasks(active_bundles: List) -> List[Tuple[str, str]]:
                     continue
                 wk,yr = lastwk.split('-')
                 if weeks_since(int(wk),int(yr),today) >= 9 and (vehicle,'_2month') not in active_bundles:
-                    add_bundle(vehicle,'_2month')
+                    add_bundle(vehicle,'_2month',friday_str)
                     active_bundles.append((vehicle,'_2month'))
                     
             if tracker.bundle[row] == '_4month':
@@ -99,7 +95,7 @@ def schedule_tasks(active_bundles: List) -> List[Tuple[str, str]]:
                     continue
                 wk,yr = lastwk.split('-')
                 if weeks_since(int(wk),int(yr),today) >= 17 and (vehicle,'_4month') not in active_bundles:
-                    add_bundle(vehicle,'_4month')
+                    add_bundle(vehicle,'_4month',friday_str)
                     active_bundles.append((vehicle,'_4month'))
                     
             if tracker.bundle[row] == '_12month':
@@ -108,7 +104,7 @@ def schedule_tasks(active_bundles: List) -> List[Tuple[str, str]]:
                     continue
                 wk,yr = lastwk.split('-')
                 if weeks_since(int(wk),int(yr),today) >= 52 and (vehicle,'_12month') not in active_bundles:
-                    add_bundle(vehicle,'_12month')
+                    add_bundle(vehicle,'_12month',friday_str)
                     active_bundles.append((vehicle,'_12month'))
                     
             if tracker.bundle[row] == '_shop4month':
@@ -117,7 +113,7 @@ def schedule_tasks(active_bundles: List) -> List[Tuple[str, str]]:
                     continue
                 wk,yr = lastwk.split('-')
                 if weeks_since(int(wk),int(yr),today) >= 17 and (vehicle,'_shop4month') not in active_bundles:
-                    add_bundle(vehicle,'_shop4month')
+                    add_bundle(vehicle,'_shop4month',friday_str)
                     active_bundles.append((vehicle,'_shop4month'))
                     
     return(active_bundles)
