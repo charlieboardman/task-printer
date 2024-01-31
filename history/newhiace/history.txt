@@ -1,0 +1,31 @@
+Oil and filter @hbchevy due:2024-01-01 #0 %_2month completed:08-Jan-2024
+Air filter @hbchevy due:2024-01-01 #1 %_2month completed:08-Jan-2024
+Radiator cleanout @hbchevy due:2024-01-01 #2 %_2month completed:08-Jan-2024
+Tire rotation & checkup @hbchevy due:2024-01-01 #3 %_2month completed:08-Jan-2024
+Cabin air filter @hbchevy due:2024-01-01 #4 %_2month completed:08-Jan-2024
+Battery checkup @hbchevy due:2024-01-01 #5 %_2month completed:08-Jan-2024
+Lights/blinkers checkup @hbchevy due:2024-01-01 #6 %_2month completed:08-Jan-2024
+Brake checkup @hbchevy due:2024-01-01 #7 %_4month completed:08-Jan-2024
+Suspension checkup @hbchevy due:2024-01-01 #8 %_4month completed:08-Jan-2024
+Spark plugs checkup @hbchevy due:2024-01-01 #9 %_4month completed:08-Jan-2024
+Clean inside windshield @hbchevy due:2024-01-01 #11 %_4month completed:08-Jan-2024
+Transmission fluid @hbchevy due:2024-01-01 #12 %_4month completed:08-Jan-2024
+Brake fluid (& clutch) @hbchevy due:2024-01-01 #13 %_12month completed:08-Jan-2024
+Coolant @hbchevy due:2024-01-01 #14 %_12month completed:08-Jan-2024
+Differential fluid @hbchevy due:2024-01-01 #15 %_12month completed:08-Jan-2024
+Oil and filter @newhiace due:2024-01-05 #0 %_2month completed:08-Jan-2024
+Air filter @newhiace due:2024-01-05 #1 %_2month completed:08-Jan-2024
+Radiator cleanout @newhiace due:2024-01-05 #2 %_2month completed:08-Jan-2024
+Tire rotation & checkup @newhiace due:2024-01-05 #3 %_2month completed:08-Jan-2024
+Cabin air filter @newhiace due:2024-01-05 #4 %_2month completed:08-Jan-2024
+Battery checkup @newhiace due:2024-01-05 #5 %_2month completed:08-Jan-2024
+Lights/blinkers checkup @newhiace due:2024-01-05 #6 %_2month completed:08-Jan-2024
+Brake checkup @newhiace due:2024-01-05 #7 %_4month completed:08-Jan-2024
+Suspension checkup @newhiace due:2024-01-05 #8 %_4month completed:08-Jan-2024
+Spark plugs checkup @newhiace due:2024-01-05 #9 %_4month completed:08-Jan-2024
+Clean inside windshield @newhiace due:2024-01-05 #11 %_4month completed:08-Jan-2024
+Transmission fluid @newhiace due:2024-01-05 #12 %_4month completed:08-Jan-2024
+Brake fluid (& clutch) @newhiace due:2024-01-05 #13 %_12month completed:08-Jan-2024
+Coolant @newhiace due:2024-01-05 #14 %_12month completed:08-Jan-2024
+Differential fluid @newhiace due:2024-01-05 #15 %_12month completed:08-Jan-2024
+Wiper fluid @newhiace due:2024-01-05 #10 %_4month completed:08-Jan-2024
