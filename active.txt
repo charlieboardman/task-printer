@@ -1,3 +1,4 @@
+porquera,_2month
+blackrunner,_2month
 porquera,_12month
 porquera,_4month
-porquera,_2month
