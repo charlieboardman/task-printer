@@ -3,7 +3,7 @@ import renderer
 import cups
 from datetime import date, timedelta
 
-today = date.today() + timedelta(days=1)
+today = date.today()
 today_str = today.strftime('%d-%b-%Y')
 
 #Read todo.txt to list active bundles
