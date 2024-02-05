@@ -21,3 +21,26 @@ Tire rotation & checkup @blackrunner due:2024-02-04 #3 %_2month
 Cabin air filter @blackrunner due:2024-02-04 #4 %_2month
 Battery checkup @blackrunner due:2024-02-04 #5 %_2month
 Lights/blinkers checkup @blackrunner due:2024-02-04 #6 %_2month
+Oil and filter @bluerunner due:2024-02-09 #0 %_2month
+Air filter @bluerunner due:2024-02-09 #1 %_2month
+Radiator cleanout @bluerunner due:2024-02-09 #2 %_2month
+Tire rotation & checkup @bluerunner due:2024-02-09 #3 %_2month
+Cabin air filter @bluerunner due:2024-02-09 #4 %_2month
+Battery checkup @bluerunner due:2024-02-09 #5 %_2month
+Lights/blinkers checkup @bluerunner due:2024-02-09 #6 %_2month
+Oil and filter @taurus due:2024-02-09 #0 %_2month
+Air filter @taurus due:2024-02-09 #1 %_2month
+Radiator cleanout @taurus due:2024-02-09 #2 %_2month
+Tire rotation & checkup @taurus due:2024-02-09 #3 %_2month
+Cabin air filter @taurus due:2024-02-09 #4 %_2month
+Battery checkup @taurus due:2024-02-09 #5 %_2month
+Lights/blinkers checkup @taurus due:2024-02-09 #6 %_2month
+Brake checkup @taurus due:2024-02-09 #7 %_4month
+Suspension checkup @taurus due:2024-02-09 #8 %_4month
+Spark plugs checkup @taurus due:2024-02-09 #9 %_4month
+Wiper fluid @taurus due:2024-02-09 #10 %_4month
+Clean inside windshield @taurus due:2024-02-09 #11 %_4month
+Transmission fluid @taurus due:2024-02-09 #12 %_4month
+Brake fluid (& clutch) @taurus due:2024-02-09 #13 %_12month
+Coolant @taurus due:2024-02-09 #14 %_12month
+Differential fluid @taurus due:2024-02-09 #15 %_12month
