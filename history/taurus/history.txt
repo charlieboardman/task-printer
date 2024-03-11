@@ -2,3 +2,49 @@ Cabin air filter @f250 due:2023-11-02 #4 %_2month
  completed:29-Oct-2023Tire rotation & checkup @f250 due:2023-11-02 #3 %_2month
  completed:29-Oct-2023Radiator cleanout @f250 due:2023-11-02 #2 %_2month
  completed:29-Oct-2023
+Oil and filter @porquera due:2024-01-26 #0 %_2month completed:12-Feb-2024
+Air filter @porquera due:2024-01-26 #1 %_2month completed:12-Feb-2024
+Radiator cleanout @porquera due:2024-01-26 #2 %_2month completed:12-Feb-2024
+Tire rotation & checkup @porquera due:2024-01-26 #3 %_2month completed:12-Feb-2024
+Cabin air filter @porquera due:2024-01-26 #4 %_2month completed:12-Feb-2024
+Battery checkup @porquera due:2024-01-26 #5 %_2month completed:12-Feb-2024
+Lights/blinkers checkup @porquera due:2024-01-26 #6 %_2month completed:12-Feb-2024
+Brake checkup @porquera due:2024-01-26 #7 %_4month completed:12-Feb-2024
+Suspension checkup @porquera due:2024-01-26 #8 %_4month completed:12-Feb-2024
+Spark plugs checkup @porquera due:2024-01-26 #9 %_4month completed:12-Feb-2024
+Wiper fluid @porquera due:2024-01-26 #10 %_4month completed:12-Feb-2024
+Clean inside windshield @porquera due:2024-01-26 #11 %_4month completed:12-Feb-2024
+Transmission fluid @porquera due:2024-01-26 #12 %_4month completed:12-Feb-2024
+Brake fluid (& clutch) @porquera due:2024-01-26 #13 %_12month completed:12-Feb-2024
+Coolant @porquera due:2024-01-26 #14 %_12month completed:12-Feb-2024
+Differential fluid @porquera due:2024-01-26 #15 %_12month completed:12-Feb-2024
+Oil and filter @blackrunner due:2024-02-04 #0 %_2month completed:12-Feb-2024
+Air filter @blackrunner due:2024-02-04 #1 %_2month completed:12-Feb-2024
+Radiator cleanout @blackrunner due:2024-02-04 #2 %_2month completed:12-Feb-2024
+Tire rotation & checkup @blackrunner due:2024-02-04 #3 %_2month completed:12-Feb-2024
+Cabin air filter @blackrunner due:2024-02-04 #4 %_2month completed:12-Feb-2024
+Battery checkup @blackrunner due:2024-02-04 #5 %_2month completed:12-Feb-2024
+Lights/blinkers checkup @blackrunner due:2024-02-04 #6 %_2month completed:12-Feb-2024
+Oil and filter @bluerunner due:2024-02-09 #0 %_2month completed:12-Feb-2024
+Air filter @bluerunner due:2024-02-09 #1 %_2month completed:12-Feb-2024
+Radiator cleanout @bluerunner due:2024-02-09 #2 %_2month completed:12-Feb-2024
+Tire rotation & checkup @bluerunner due:2024-02-09 #3 %_2month completed:12-Feb-2024
+Cabin air filter @bluerunner due:2024-02-09 #4 %_2month completed:12-Feb-2024
+Battery checkup @bluerunner due:2024-02-09 #5 %_2month completed:12-Feb-2024
+Lights/blinkers checkup @bluerunner due:2024-02-09 #6 %_2month completed:12-Feb-2024
+Oil and filter @taurus due:2024-02-09 #0 %_2month completed:12-Feb-2024
+Air filter @taurus due:2024-02-09 #1 %_2month completed:12-Feb-2024
+Radiator cleanout @taurus due:2024-02-09 #2 %_2month completed:12-Feb-2024
+Tire rotation & checkup @taurus due:2024-02-09 #3 %_2month completed:12-Feb-2024
+Cabin air filter @taurus due:2024-02-09 #4 %_2month completed:12-Feb-2024
+Battery checkup @taurus due:2024-02-09 #5 %_2month completed:12-Feb-2024
+Lights/blinkers checkup @taurus due:2024-02-09 #6 %_2month completed:12-Feb-2024
+Brake checkup @taurus due:2024-02-09 #7 %_4month completed:12-Feb-2024
+Suspension checkup @taurus due:2024-02-09 #8 %_4month completed:12-Feb-2024
+Spark plugs checkup @taurus due:2024-02-09 #9 %_4month completed:12-Feb-2024
+Wiper fluid @taurus due:2024-02-09 #10 %_4month completed:12-Feb-2024
+Clean inside windshield @taurus due:2024-02-09 #11 %_4month completed:12-Feb-2024
+Transmission fluid @taurus due:2024-02-09 #12 %_4month completed:12-Feb-2024
+Brake fluid (& clutch) @taurus due:2024-02-09 #13 %_12month completed:12-Feb-2024
+Coolant @taurus due:2024-02-09 #14 %_12month completed:12-Feb-2024
+Differential fluid @taurus due:2024-02-09 #15 %_12month completed:12-Feb-2024

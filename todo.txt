@@ -1,46 +1,16 @@
-Oil and filter @porquera due:2024-01-26 #0 %_2month
-Air filter @porquera due:2024-01-26 #1 %_2month
-Radiator cleanout @porquera due:2024-01-26 #2 %_2month
-Tire rotation & checkup @porquera due:2024-01-26 #3 %_2month
-Cabin air filter @porquera due:2024-01-26 #4 %_2month
-Battery checkup @porquera due:2024-01-26 #5 %_2month
-Lights/blinkers checkup @porquera due:2024-01-26 #6 %_2month
-Brake checkup @porquera due:2024-01-26 #7 %_4month
-Suspension checkup @porquera due:2024-01-26 #8 %_4month
-Spark plugs checkup @porquera due:2024-01-26 #9 %_4month
-Wiper fluid @porquera due:2024-01-26 #10 %_4month
-Clean inside windshield @porquera due:2024-01-26 #11 %_4month
-Transmission fluid @porquera due:2024-01-26 #12 %_4month
-Brake fluid (& clutch) @porquera due:2024-01-26 #13 %_12month
-Coolant @porquera due:2024-01-26 #14 %_12month
-Differential fluid @porquera due:2024-01-26 #15 %_12month
-Oil and filter @blackrunner due:2024-02-04 #0 %_2month
-Air filter @blackrunner due:2024-02-04 #1 %_2month
-Radiator cleanout @blackrunner due:2024-02-04 #2 %_2month
-Tire rotation & checkup @blackrunner due:2024-02-04 #3 %_2month
-Cabin air filter @blackrunner due:2024-02-04 #4 %_2month
-Battery checkup @blackrunner due:2024-02-04 #5 %_2month
-Lights/blinkers checkup @blackrunner due:2024-02-04 #6 %_2month
-Oil and filter @bluerunner due:2024-02-09 #0 %_2month
-Air filter @bluerunner due:2024-02-09 #1 %_2month
-Radiator cleanout @bluerunner due:2024-02-09 #2 %_2month
-Tire rotation & checkup @bluerunner due:2024-02-09 #3 %_2month
-Cabin air filter @bluerunner due:2024-02-09 #4 %_2month
-Battery checkup @bluerunner due:2024-02-09 #5 %_2month
-Lights/blinkers checkup @bluerunner due:2024-02-09 #6 %_2month
-Oil and filter @taurus due:2024-02-09 #0 %_2month
-Air filter @taurus due:2024-02-09 #1 %_2month
-Radiator cleanout @taurus due:2024-02-09 #2 %_2month
-Tire rotation & checkup @taurus due:2024-02-09 #3 %_2month
-Cabin air filter @taurus due:2024-02-09 #4 %_2month
-Battery checkup @taurus due:2024-02-09 #5 %_2month
-Lights/blinkers checkup @taurus due:2024-02-09 #6 %_2month
-Brake checkup @taurus due:2024-02-09 #7 %_4month
-Suspension checkup @taurus due:2024-02-09 #8 %_4month
-Spark plugs checkup @taurus due:2024-02-09 #9 %_4month
-Wiper fluid @taurus due:2024-02-09 #10 %_4month
-Clean inside windshield @taurus due:2024-02-09 #11 %_4month
-Transmission fluid @taurus due:2024-02-09 #12 %_4month
-Brake fluid (& clutch) @taurus due:2024-02-09 #13 %_12month
-Coolant @taurus due:2024-02-09 #14 %_12month
-Differential fluid @taurus due:2024-02-09 #15 %_12month
+Oil and filter @blueexplorer due:2024-03-14 #0 %_2month
+Air filter @blueexplorer due:2024-03-14 #1 %_2month
+Radiator cleanout @blueexplorer due:2024-03-14 #2 %_2month
+Tire rotation & checkup @blueexplorer due:2024-03-14 #3 %_2month
+Cabin air filter @blueexplorer due:2024-03-14 #4 %_2month
+Battery checkup @blueexplorer due:2024-03-14 #5 %_2month
+Lights/blinkers checkup @blueexplorer due:2024-03-14 #6 %_2month
+Brake checkup @blueexplorer due:2024-03-14 #7 %_4month
+Suspension checkup @blueexplorer due:2024-03-14 #8 %_4month
+Spark plugs checkup @blueexplorer due:2024-03-14 #9 %_4month
+Wiper fluid @blueexplorer due:2024-03-14 #10 %_4month
+Clean inside windshield @blueexplorer due:2024-03-14 #11 %_4month
+Transmission fluid @blueexplorer due:2024-03-14 #12 %_4month
+Brake fluid (& clutch) @blueexplorer due:2024-03-14 #13 %_12month
+Coolant @blueexplorer due:2024-03-14 #14 %_12month
+Differential fluid @blueexplorer due:2024-03-14 #15 %_12month

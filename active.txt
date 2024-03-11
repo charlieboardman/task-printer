@@ -1,8 +1,3 @@
-porquera,_4month
-blackrunner,_2month
-taurus,_4month
-porquera,_12month
-bluerunner,_2month
-taurus,_12month
-porquera,_2month
-taurus,_2month
+blueexplorer,_2month
+blueexplorer,_4month
+blueexplorer,_12month

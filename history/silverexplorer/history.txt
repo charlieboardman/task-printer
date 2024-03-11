@@ -103,3 +103,24 @@ Transmission fluid @newhiace due:2024-01-05 #12 %_4month completed:31-Dec-2023
 Brake fluid (& clutch) @newhiace due:2024-01-05 #13 %_12month completed:31-Dec-2023
 Coolant @newhiace due:2024-01-05 #14 %_12month completed:31-Dec-2023
 Differential fluid @newhiace due:2024-01-05 #15 %_12month completed:31-Dec-2023
+Oil and filter @silverexplorer due:2024-03-01 #0 %_2month completed:04-Mar-2024
+Air filter @silverexplorer due:2024-03-01 #1 %_2month completed:04-Mar-2024
+Radiator cleanout @silverexplorer due:2024-03-01 #2 %_2month completed:04-Mar-2024
+Tire rotation & checkup @silverexplorer due:2024-03-01 #3 %_2month completed:04-Mar-2024
+Cabin air filter @silverexplorer due:2024-03-01 #4 %_2month completed:04-Mar-2024
+Battery checkup @silverexplorer due:2024-03-01 #5 %_2month completed:04-Mar-2024
+Lights/blinkers checkup @silverexplorer due:2024-03-01 #6 %_2month completed:04-Mar-2024
+Oil and filter @f250 due:2024-03-01 #0 %_2month completed:04-Mar-2024
+Air filter @f250 due:2024-03-01 #1 %_2month completed:04-Mar-2024
+Radiator cleanout @f250 due:2024-03-01 #2 %_2month completed:04-Mar-2024
+Tire rotation & checkup @f250 due:2024-03-01 #3 %_2month completed:04-Mar-2024
+Cabin air filter @f250 due:2024-03-01 #4 %_2month completed:04-Mar-2024
+Battery checkup @f250 due:2024-03-01 #5 %_2month completed:04-Mar-2024
+Lights/blinkers checkup @f250 due:2024-03-01 #6 %_2month completed:04-Mar-2024
+Oil and filter @whitetacoma due:2024-03-01 #0 %_2month completed:04-Mar-2024
+Air filter @whitetacoma due:2024-03-01 #1 %_2month completed:04-Mar-2024
+Radiator cleanout @whitetacoma due:2024-03-01 #2 %_2month completed:04-Mar-2024
+Tire rotation & checkup @whitetacoma due:2024-03-01 #3 %_2month completed:04-Mar-2024
+Cabin air filter @whitetacoma due:2024-03-01 #4 %_2month completed:04-Mar-2024
+Battery checkup @whitetacoma due:2024-03-01 #5 %_2month completed:04-Mar-2024
+Lights/blinkers checkup @whitetacoma due:2024-03-01 #6 %_2month completed:04-Mar-2024

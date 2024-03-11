@@ -1,7 +1,7 @@
 job_eng,job_spa,_id,bundle
 Oil and filter,Cambiar aceite y filtro,0,_2month
 Air filter,Cambiar filtro de aire,1,_2month
-Radiator cleanout,Limpiar radiador,2,_2month
+Radiator cleanout,Limpiar exterior del radiador,2,_2month
 Tire rotation & checkup,Rotar y revisar llantas,3,_2month
 Cabin air filter,Filtro de aire de cabina,4,_2month
 Battery checkup,Revisar bateria,5,_2month

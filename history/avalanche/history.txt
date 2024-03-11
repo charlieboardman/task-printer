@@ -1,0 +1,16 @@
+Oil and filter @avalanche due:2024-02-22 #0 %_2month completed:26-Feb-2024
+Air filter @avalanche due:2024-02-22 #1 %_2month completed:26-Feb-2024
+Radiator cleanout @avalanche due:2024-02-22 #2 %_2month completed:26-Feb-2024
+Tire rotation & checkup @avalanche due:2024-02-22 #3 %_2month completed:26-Feb-2024
+Cabin air filter @avalanche due:2024-02-22 #4 %_2month completed:26-Feb-2024
+Battery checkup @avalanche due:2024-02-22 #5 %_2month completed:26-Feb-2024
+Lights/blinkers checkup @avalanche due:2024-02-22 #6 %_2month completed:26-Feb-2024
+Brake checkup @avalanche due:2024-02-22 #7 %_4month completed:26-Feb-2024
+Suspension checkup @avalanche due:2024-02-22 #8 %_4month completed:26-Feb-2024
+Spark plugs checkup @avalanche due:2024-02-22 #9 %_4month completed:26-Feb-2024
+Wiper fluid @avalanche due:2024-02-22 #10 %_4month completed:26-Feb-2024
+Clean inside windshield @avalanche due:2024-02-22 #11 %_4month completed:26-Feb-2024
+Transmission fluid @avalanche due:2024-02-22 #12 %_4month completed:26-Feb-2024
+Brake fluid (& clutch) @avalanche due:2024-02-22 #13 %_12month completed:26-Feb-2024
+Coolant @avalanche due:2024-02-22 #14 %_12month completed:26-Feb-2024
+Differential fluid @avalanche due:2024-02-22 #15 %_12month completed:26-Feb-2024

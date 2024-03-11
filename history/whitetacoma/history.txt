@@ -1,1 +1,31 @@
 Replace power steering pump @whitetacoma #s %special completed:03-Dec-2023
+Oil and filter @silverexplorer due:2024-03-01 #0 %_2month completed:04-Mar-2024
+Air filter @silverexplorer due:2024-03-01 #1 %_2month completed:04-Mar-2024
+Radiator cleanout @silverexplorer due:2024-03-01 #2 %_2month completed:04-Mar-2024
+Tire rotation & checkup @silverexplorer due:2024-03-01 #3 %_2month completed:04-Mar-2024
+Cabin air filter @silverexplorer due:2024-03-01 #4 %_2month completed:04-Mar-2024
+Battery checkup @silverexplorer due:2024-03-01 #5 %_2month completed:04-Mar-2024
+Lights/blinkers checkup @silverexplorer due:2024-03-01 #6 %_2month completed:04-Mar-2024
+Oil and filter @f250 due:2024-03-01 #0 %_2month completed:04-Mar-2024
+Air filter @f250 due:2024-03-01 #1 %_2month completed:04-Mar-2024
+Radiator cleanout @f250 due:2024-03-01 #2 %_2month completed:04-Mar-2024
+Tire rotation & checkup @f250 due:2024-03-01 #3 %_2month completed:04-Mar-2024
+Cabin air filter @f250 due:2024-03-01 #4 %_2month completed:04-Mar-2024
+Battery checkup @f250 due:2024-03-01 #5 %_2month completed:04-Mar-2024
+Lights/blinkers checkup @f250 due:2024-03-01 #6 %_2month completed:04-Mar-2024
+Oil and filter @whitetacoma due:2024-03-01 #0 %_2month completed:04-Mar-2024
+Air filter @whitetacoma due:2024-03-01 #1 %_2month completed:04-Mar-2024
+Radiator cleanout @whitetacoma due:2024-03-01 #2 %_2month completed:04-Mar-2024
+Tire rotation & checkup @whitetacoma due:2024-03-01 #3 %_2month completed:04-Mar-2024
+Cabin air filter @whitetacoma due:2024-03-01 #4 %_2month completed:04-Mar-2024
+Battery checkup @whitetacoma due:2024-03-01 #5 %_2month completed:04-Mar-2024
+Lights/blinkers checkup @whitetacoma due:2024-03-01 #6 %_2month completed:04-Mar-2024
+Brake checkup @whitetacoma due:2024-03-01 #7 %_4month completed:04-Mar-2024
+Suspension checkup @whitetacoma due:2024-03-01 #8 %_4month completed:04-Mar-2024
+Spark plugs checkup @whitetacoma due:2024-03-01 #9 %_4month completed:04-Mar-2024
+Wiper fluid @whitetacoma due:2024-03-01 #10 %_4month completed:04-Mar-2024
+Clean inside windshield @whitetacoma due:2024-03-01 #11 %_4month completed:04-Mar-2024
+Transmission fluid @whitetacoma due:2024-03-01 #12 %_4month completed:04-Mar-2024
+Brake fluid (& clutch) @whitetacoma due:2024-03-01 #13 %_12month completed:04-Mar-2024
+Coolant @whitetacoma due:2024-03-01 #14 %_12month completed:04-Mar-2024
+Differential fluid @whitetacoma due:2024-03-01 #15 %_12month completed:04-Mar-2024
