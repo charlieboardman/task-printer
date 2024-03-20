@@ -14,3 +14,40 @@ Transmission fluid @blueexplorer due:2024-03-14 #12 %_4month
 Brake fluid (& clutch) @blueexplorer due:2024-03-14 #13 %_12month
 Coolant @blueexplorer due:2024-03-14 #14 %_12month
 Differential fluid @blueexplorer due:2024-03-14 #15 %_12month
+Oil and filter @hbchevy due:2024-03-23 #0 %_2month
+Air filter @hbchevy due:2024-03-23 #1 %_2month
+Radiator cleanout @hbchevy due:2024-03-23 #2 %_2month
+Tire rotation & checkup @hbchevy due:2024-03-23 #3 %_2month
+Cabin air filter @hbchevy due:2024-03-23 #4 %_2month
+Battery checkup @hbchevy due:2024-03-23 #5 %_2month
+Lights/blinkers checkup @hbchevy due:2024-03-23 #6 %_2month
+Oil and filter @newhiace due:2024-03-23 #0 %_2month
+Air filter @newhiace due:2024-03-23 #1 %_2month
+Radiator cleanout @newhiace due:2024-03-23 #2 %_2month
+Tire rotation & checkup @newhiace due:2024-03-23 #3 %_2month
+Cabin air filter @newhiace due:2024-03-23 #4 %_2month
+Battery checkup @newhiace due:2024-03-23 #5 %_2month
+Lights/blinkers checkup @newhiace due:2024-03-23 #6 %_2month
+Oil and filter @oldhiace due:2024-03-23 #0 %_2month
+Air filter @oldhiace due:2024-03-23 #1 %_2month
+Radiator cleanout @oldhiace due:2024-03-23 #2 %_2month
+Tire rotation & checkup @oldhiace due:2024-03-23 #3 %_2month
+Cabin air filter @oldhiace due:2024-03-23 #4 %_2month
+Battery checkup @oldhiace due:2024-03-23 #5 %_2month
+Lights/blinkers checkup @oldhiace due:2024-03-23 #6 %_2month
+Oil and filter @pathfinder due:2024-03-23 #0 %_2month
+Air filter @pathfinder due:2024-03-23 #1 %_2month
+Radiator cleanout @pathfinder due:2024-03-23 #2 %_2month
+Tire rotation & checkup @pathfinder due:2024-03-23 #3 %_2month
+Cabin air filter @pathfinder due:2024-03-23 #4 %_2month
+Battery checkup @pathfinder due:2024-03-23 #5 %_2month
+Lights/blinkers checkup @pathfinder due:2024-03-23 #6 %_2month
+Brake checkup @pathfinder due:2024-03-23 #7 %_4month
+Suspension checkup @pathfinder due:2024-03-23 #8 %_4month
+Spark plugs checkup @pathfinder due:2024-03-23 #9 %_4month
+Wiper fluid @pathfinder due:2024-03-23 #10 %_4month
+Clean inside windshield @pathfinder due:2024-03-23 #11 %_4month
+Transmission fluid @pathfinder due:2024-03-23 #12 %_4month
+Brake fluid (& clutch) @pathfinder due:2024-03-23 #13 %_12month
+Coolant @pathfinder due:2024-03-23 #14 %_12month
+Differential fluid @pathfinder due:2024-03-23 #15 %_12month
