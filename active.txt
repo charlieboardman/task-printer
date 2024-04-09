@@ -1,9 +1,6 @@
-blueexplorer,_4month
-pathfinder,_4month
-blueexplorer,_2month
-oldhiace,_2month
-pathfinder,_2month
-newhiace,_2month
-hbchevy,_2month
 blueexplorer,_12month
-pathfinder,_12month
+shop,_shop4month
+bluerunner,_4month
+np300,_2month
+sienna,_2month
+tractor,_2month
