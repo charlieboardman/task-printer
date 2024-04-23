@@ -43,3 +43,8 @@ Tire rotation & checkup @taurus due:2024-02-09 #3 %_2month completed:12-Feb-2024
 Cabin air filter @taurus due:2024-02-09 #4 %_2month completed:12-Feb-2024
 Battery checkup @taurus due:2024-02-09 #5 %_2month completed:12-Feb-2024
 Lights/blinkers checkup @taurus due:2024-02-09 #6 %_2month completed:12-Feb-2024
+Brake checkup @bluerunner due:2024-04-14 #7 %_4month completed:09-Apr-2024
+Suspension checkup @bluerunner due:2024-04-14 #8 %_4month completed:09-Apr-2024
+Spark plugs checkup @bluerunner due:2024-04-14 #9 %_4month completed:09-Apr-2024
+Wiper fluid @bluerunner due:2024-04-14 #10 %_4month completed:09-Apr-2024
+Transmission fluid @bluerunner due:2024-04-14 #12 %_4month completed:09-Apr-2024
